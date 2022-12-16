@@ -15,11 +15,9 @@ p {
 .headContainer {
     display: flex;
     flex-wrap: wrap;
-    width: auto;
 }
 
 .headbox {
-    max-width: 450px;
     margin: 20px;
 }
 
