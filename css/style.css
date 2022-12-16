@@ -54,3 +54,12 @@ ul {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
 }
+
+@media (max-width:500px) {
+    p {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 25px;
+    }    
+}
