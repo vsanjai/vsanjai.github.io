@@ -19,6 +19,7 @@ p {
 }
 
 .headbox {
+    max-width: 550px;
     margin: 20px;
 }
 
