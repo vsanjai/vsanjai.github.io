@@ -39,7 +39,7 @@ p {
 }
 
 .detailbox {
-    width: max-content;
+    width: 150px;
     display: block;
     margin: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
