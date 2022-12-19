@@ -21,6 +21,9 @@ p {
     margin: 20px;
 }
 
+.image{
+    object-fit: contain;
+}
 .seperator {
     font-size: 25px;
     font-weight: bold;
