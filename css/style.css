@@ -23,6 +23,7 @@ p {
 
 .image{
     object-fit: contain;
+    border-radius: 50%;
 }
 .seperator {
     font-size: 25px;
