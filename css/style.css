@@ -1,26 +1,29 @@
-*{
+* {
+ 
 
+  
 }
+
 .box-card {
     width: 250px;
     height: 410px;
-    background-color:#eaeafa ;
-    padding: 15px ;
+    background-color: #eaeafa;
+    padding: 15px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px ;
+    font-size: 16px;
 }
 
 .box-card img {
     width: 100%;
     object-fit: contain;
-    border-radius: 2.5% ;
+    border-radius: 2.5%;
 }
 
 .media-icons a {
     padding-inline: 10px;
     text-decoration: none;
-    font-size:26px;
+    font-size: 26px;
 }
 
 .media-icons i {
@@ -28,7 +31,7 @@
 }
 
 h1 {
-    background-color:#eaeafa ;
+    background-color: #eaeafa;
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -90,6 +93,8 @@ ul {
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
+    background-color: black;
+    color: white;
 }
 
 a {
@@ -101,7 +106,7 @@ a {
     border-radius: 10px;
     padding: 1%;
     background-color: black;
-    color:white;
+    color: white;
     transition: 100ms;
 }
 
@@ -122,4 +127,9 @@ a::after {
     .seperator {
         font-size: 20px;
     }
+
+    .box-card{
+        margin-left: auto;
+        margin-right: auto;
+        }
 }
