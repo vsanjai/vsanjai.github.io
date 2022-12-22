@@ -1,7 +1,10 @@
+*{
+
+}
 .box-card {
     width: 250px;
     height: 410px;
-    background: #CCCCFF;
+    background-color:#eaeafa ;
     padding: 15px ;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,6 +28,7 @@
 }
 
 h1 {
+    background-color:#eaeafa ;
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -38,6 +42,7 @@ p {
 }
 
 .headContainer {
+    background: #CCCCFF;
     display: flex;
     flex-wrap: wrap;
 }
@@ -56,6 +61,7 @@ p {
     font-weight: bold;
     text-decoration: underline;
     padding-top: 15px;
+    background: #CCCCFF;
 }
 
 .detailContainer {
@@ -64,6 +70,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background: #CCCCFF;
 }
 
 .detailbox {
@@ -90,10 +97,11 @@ a {
     color: black;
 }
 
-a:hover {
+.detailbox a:hover {
     border-radius: 10px;
     padding: 1%;
-    background-color: #b3d87f;
+    background-color: black;
+    color:white;
     transition: 100ms;
 }
 
